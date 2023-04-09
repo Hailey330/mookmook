@@ -1,10 +1,10 @@
+import { LogoSVG } from "@/assets/svg";
 import styled from "@emotion/styled";
-import React from "react";
 
 const Header = () => {
   return (
     <Container>
-      <>로고</>
+      <LogoSVG />
       <>날짜</>
       <>버튼</>
     </Container>
@@ -14,3 +14,5 @@ const Header = () => {
 export default Header;
 
 const Container = styled.div``;
+
+// const LogoImage = styled(LogoSVG)``;
