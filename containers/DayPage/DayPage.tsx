@@ -26,8 +26,6 @@ const Container = styled.main`
 `;
 
 const ContentStyle = styled.div`
-  border: 1px solid red;
-
   width: 420px;
   height: 820px;
   margin: 90px;
